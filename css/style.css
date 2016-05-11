@@ -1,0 +1,282 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #c0c4c7; 
+    
+}
+    #leading{
+    background: #a18bcc;
+    color: #fff;
+    text-align: center;
+    padding-top: 3em;
+    
+}
+
+#leading nav a{
+    color: #fff;
+    text-decoration:none;
+    margin-left: 2em
+}
+
+#leading a.action{
+    
+    background: #47D7DB;
+width: 12em;
+}
+
+#leading a.active{
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+}
+h1{
+    font-size: 4em;
+   margin-top: 2em;
+}
+p.tagline{
+   padding: 1em;
+}
+
+.image-container {
+        position:relative;
+    
+}
+#leading div.image-container img{
+    margin-top: 5em;
+
+}
+ 
+    
+#leading div.caption{
+    
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    text-align: left;
+}
+
+#leading div.likes{
+    position: absolute;
+    bottom: 1em;
+    right: 5em;
+    font-size: 1.8em;
+  
+}
+#leading div.edit{
+ position: absolute;
+    top:1em;
+    right: 5em;
+    font-size: 2em;
+    padding: 0.3em;
+    
+}
+p.title{
+    font-size: 1.5em;
+    margin-bottom: 0;
+
+}
+#intro{
+
+    text-align: center;
+    padding: 2em 0;
+}
+.btn-solid{
+color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    font-weight: bold;
+     background: #a18bcc;
+  
+    }
+  btn-solid:hover{
+        color: #fff;
+    }
+#intro a.get-started{
+    background: #a18bcc; 
+
+}
+.btn-outline{
+    
+    color:#c0c4c7;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 1em 3em;
+    font-weight: bold;
+    border: 2px solid #a18bcc;
+}
+#intro a.try-demo{
+    margin-left: 1em;
+}
+h2{
+   margin: 2em 0 0.7em;
+}
+#intro p{
+    font-size:1.2em;
+}
+
+#feature{
+    padding: 5em 0 20em;
+    background-color: #f7f7f5;
+    background-image: url('../images/mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+}
+
+#take-look{
+  background-color: #a18bcc;
+    color: #fff;
+    text-align: center;
+    padding: 3em 0;
+     
+}
+#take-look h2{
+    text-transform: uppercase;
+    
+}
+#take-look a.Take-my-money{
+    background-color: #47D7DB;
+}
+#take-look a.Free-account{
+   margin-left: 1em;
+ color: #fff;
+    border-color: #fff;       
+}
+#take-look p{
+    margin-bottom: 2em;
+}
+
+#video-demo{
+    position: relative;
+}
+    #video-demo img{
+         width: 100%;
+    }
+  #video-demo  i{
+      position: absolute;
+        font-size: 6em;
+      color: #fff;
+        top: 50%;
+        left: 50%;
+    }
+#customization{
+    text-align: center;
+    padding: 5em,0;
+     background-color: #f7f7f5;
+}
+#customization i{
+    font-size: 3em;
+    color: #a18bcc;
+    }
+#customization a{
+    color: #a18bcc;
+    font-weight: bold;
+}
+
+#pricing{
+    text-align: center;
+}
+#pricing h2{
+    color: #a18bcc;
+     text-transform: uppercase;
+     
+}
+#pricing p.caption{
+    color: #a18bcc;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+   
+#pricing div.price-option{
+    border: 1px solid #c0c4c7;
+    border-radius: 0.5em;
+    height: 48em;
+    position: relative;
+    }
+#pricing div.price-option h3{
+    background-color: #a18bcc;
+    color: #fff;
+    margin: 0;
+    padding: 0.6em;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0 0;
+}
+#pricing div.price-option p{
+    font-weight: bold;
+    margin: 1em 1em 1em; 
+}
+#pricing p.price{
+    color: #47D7DB;
+    font-size: 2.7em;
+}
+#pricing span{
+    font-size: 0.5em;
+    color: #c0c4c7;
+    position: relative;
+    
+}
+
+#pricing div.reason{
+    
+    border-top: 1px solid #c0c4c7;
+    padding: 1em;
+    margin: 0.2em;
+    font-weight: bold;
+}
+a.signup{
+    margin: 0.2em;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    right: 2em;
+}
+a.btn-outline{
+       color: #47D7DB;
+    border: 1px solid #47D7DB;
+}
+#pricing div.user_count{
+    color: #a18bcc;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+#pricing div.user_count span{
+    
+    font-size: 1.3em;
+    font-weight: bold;
+    
+       
+}
+#mountain img{
+    width: 100%;
+}
+#mountain .take-my-money{
+    background-color: #a18bcc;
+    padding: 3em 0;
+    text-align: center;
+}
+#mountain a{
+    background-color: #47D7DB;
+    color: #fff;
+}
+
+footer{
+    
+    border-bottom: 100px solid #a18bcc;
+    padding: 3em 0; 
+}
+footer a{
+    display: block;
+    color: #c0c4c7;
+    font-weight: bold;
+    margin: 0.5em 0;
+    
+}
+
+footer div.pencil{
+  
+    text-align: center;
+}
+footer i
+{
+    font-size: 3em;
+    transform: rotate(-45deg);
+}
